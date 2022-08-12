@@ -1,0 +1,18 @@
+{
+  "name": "ask-demo",
+  "author": "Ask! Authors <https://github.com/ask-lang>",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ask-lang": "^0.4.0-rc2"
+  },
+  "devDependencies": {
+    "ask-transform": "^0.4.0-rc2",
+    "assemblyscript": "^0.19"
+  },
+  "scripts": {
+    "build": "ASK_CONFIG=./askconfig.json asc --config asconfig.json",
+    "debug": "DEBUG=* ASK_CONFIG=./askconfig.json asc --config asconfig.json"
+  }
+}

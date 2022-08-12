@@ -1,0 +1,96 @@
+{
+  "source": {
+    "hash": "",
+    "language": "Ask! 0.4.0-rc2",
+    "compiler": "asc 0.19.23"
+  },
+  "contract": {
+    "name": "flipper",
+    "version": "0.1.0",
+    "license": "MIT"
+  },
+  "V3": {
+    "spec": {
+      "constructors": [
+        {
+          "args": [
+            {
+              "type": {
+                "type": 0,
+                "displayName": [
+                  "bool"
+                ]
+              },
+              "label": "flag"
+            }
+          ],
+          "docs": [],
+          "label": "default",
+          "payable": false,
+          "selector": "0xed4b9d1b"
+        }
+      ],
+      "messages": [
+        {
+          "mutates": true,
+          "payable": true,
+          "args": [],
+          "docs": [],
+          "label": "flip",
+          "selector": "0x633aa551"
+        },
+        {
+          "mutates": false,
+          "payable": false,
+          "args": [],
+          "returnType": {
+            "type": 0,
+            "displayName": [
+              "bool"
+            ]
+          },
+          "docs": [],
+          "label": "get",
+          "selector": "0x2f865bd9"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "label": "FlipEvent",
+          "args": [
+            {
+              "label": "flag",
+              "indexed": false,
+              "type": {
+                "type": 0,
+                "displayName": [
+                  "bool"
+                ]
+              },
+              "docs": [
+                ""
+              ]
+            }
+          ],
+          "docs": [
+            ""
+          ]
+        }
+      ],
+      "docs": [
+        ""
+      ]
+    },
+    "types": [
+      {
+        "id": 0,
+        "type": {
+          "def": {
+            "primitive": "bool"
+          }
+        }
+      }
+    ]
+  }
+}
