@@ -38,33 +38,33 @@ as-serde@^0.2, as-serde@^0.2.0:
   dependencies:
     as-serde-transform "^0.2.0"
 
-ask-contract-metadata@0.4.0-rc2:
-  version "0.4.0-rc2"
-  resolved "https://registry.yarnpkg.com/ask-contract-metadata/-/ask-contract-metadata-0.4.0-rc2.tgz#1e5a4df231012053bd59844e92b5b9590386700a"
-  integrity sha512-WU6mJNxi/j0w+XUxH1pc5nOo+kgfgmkkabwNGNunPvX18H8nBosfQ2cH89DJofa9UKuJqXecoxXnktZLBO1ldA==
+ask-contract-metadata@0.4.0-rc3:
+  version "0.4.0-rc3"
+  resolved "https://registry.yarnpkg.com/ask-contract-metadata/-/ask-contract-metadata-0.4.0-rc3.tgz#898021eede7d0f615e304507899e8bf9f4b3974e"
+  integrity sha512-2y3IjhWaWaon0HCx2QIbbfUbnTb4uxL6cP8MRdr7ZALxDyc4HI+zm04hLTrXxl595qd7XKoaLW1BmCAUVk4a2Q==
 
-ask-contract-runtime@0.4.0-rc2:
-  version "0.4.0-rc2"
-  resolved "https://registry.yarnpkg.com/ask-contract-runtime/-/ask-contract-runtime-0.4.0-rc2.tgz#d364793ed6fa9e2ee2741b3b9f8dc0f00e598fe8"
-  integrity sha512-f5+lRna/gyMAWytMQLQul/nTfYeVN3Af3CMUnew9sFth5XEJ3nUHglBOPPWqytFuQZvrJuo7NaQH9UnNzKAPTg==
+ask-contract-runtime@0.4.0-rc3:
+  version "0.4.0-rc3"
+  resolved "https://registry.yarnpkg.com/ask-contract-runtime/-/ask-contract-runtime-0.4.0-rc3.tgz#a70d720cb6a6feebaddd16906e6fe8adba1aa236"
+  integrity sha512-uLVnATw/0sPfmf2xEtplvLOv7ERG3AFa3xMmwcoLmEp9TXUYAzQR8M5x3o3YZ1w+n9YVKZ2IBjWZwGYbbMsWTQ==
 
-ask-lang@^0.4.0-rc2:
-  version "0.4.0-rc2"
-  resolved "https://registry.yarnpkg.com/ask-lang/-/ask-lang-0.4.0-rc2.tgz#17a5dc9f2b4fc2a0c3309f6ac255e0d62d4d5b79"
-  integrity sha512-lLAU4Ix7c2lOktl6MYoBt3/Zs3nEBPix6G2XkfmeXfKPtKhMOOTlXZK36Jdw+tgBF65k72FCCI7oyLtW1C67Ow==
+ask-lang@^0.4.0-rc3:
+  version "0.4.0-rc3"
+  resolved "https://registry.yarnpkg.com/ask-lang/-/ask-lang-0.4.0-rc3.tgz#56bcc0042980b5f361b9f5c6c4557955ac854d1c"
+  integrity sha512-FDktzTs5eGJyyDndFkZmOS8IUKgJWddUQtNo5/Hvy1hfh9sEmnqfXEcDEvXIQst/RxP0kw/QiA4pBD/dRarR4A==
   dependencies:
     as-bignum "^0.2.23"
     as-buffers "^0.1.3"
     as-serde "^0.2"
     as-serde-scale "^0.2"
-    ask-contract-runtime "0.4.0-rc2"
+    ask-contract-runtime "0.4.0-rc3"
 
-ask-transform@^0.4.0-rc2:
-  version "0.4.0-rc2"
-  resolved "https://registry.yarnpkg.com/ask-transform/-/ask-transform-0.4.0-rc2.tgz#973a6ed9c30921d1a6be516fe6185fc7dd3a2630"
-  integrity sha512-0ZUf7bGMymeaKSUsoYGMjLa/HNvxzYEoijDSf7ME8Tl9FXN3eqQd8lpIgPL1ZSuPY5gYdV1z4qoFY0E4yAqNsQ==
+ask-transform@^0.4.0-rc3:
+  version "0.4.0-rc3"
+  resolved "https://registry.yarnpkg.com/ask-transform/-/ask-transform-0.4.0-rc3.tgz#3f5b0bd5f80217654d970f0bc1f5b904bc87535a"
+  integrity sha512-Tf6U3NejiCYtGUD1kTe6ASSG7MqaZ6cshT4dawy7wrtzwsrngEyXpzwxMoulNRJP/8G4jsZ6L9IvOTvb5meUTg==
   dependencies:
-    ask-contract-metadata "0.4.0-rc2"
+    ask-contract-metadata "0.4.0-rc3"
     assemblyscript "^0.19"
     blakejs "^1.1.0"
     debug "^4.3"
