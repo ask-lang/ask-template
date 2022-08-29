@@ -5,10 +5,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ask-lang": "^0.4.0-rc2"
+    "ask-lang": "^0.4.0-rc3"
   },
   "devDependencies": {
-    "ask-transform": "^0.4.0-rc2",
+    "ask-transform": "^0.4.0-rc3",
     "assemblyscript": "^0.19"
   },
   "scripts": {
