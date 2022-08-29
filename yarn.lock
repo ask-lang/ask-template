@@ -48,7 +48,7 @@ ask-contract-runtime@0.4.0-rc3:
   resolved "https://registry.yarnpkg.com/ask-contract-runtime/-/ask-contract-runtime-0.4.0-rc3.tgz#a70d720cb6a6feebaddd16906e6fe8adba1aa236"
   integrity sha512-uLVnATw/0sPfmf2xEtplvLOv7ERG3AFa3xMmwcoLmEp9TXUYAzQR8M5x3o3YZ1w+n9YVKZ2IBjWZwGYbbMsWTQ==
 
-ask-lang@^0.4.0-rc2:
+ask-lang@^0.4.0-rc3:
   version "0.4.0-rc3"
   resolved "https://registry.yarnpkg.com/ask-lang/-/ask-lang-0.4.0-rc3.tgz#56bcc0042980b5f361b9f5c6c4557955ac854d1c"
   integrity sha512-FDktzTs5eGJyyDndFkZmOS8IUKgJWddUQtNo5/Hvy1hfh9sEmnqfXEcDEvXIQst/RxP0kw/QiA4pBD/dRarR4A==
@@ -59,7 +59,7 @@ ask-lang@^0.4.0-rc2:
     as-serde-scale "^0.2"
     ask-contract-runtime "0.4.0-rc3"
 
-ask-transform@^0.4.0-rc2:
+ask-transform@^0.4.0-rc3:
   version "0.4.0-rc3"
   resolved "https://registry.yarnpkg.com/ask-transform/-/ask-transform-0.4.0-rc3.tgz#3f5b0bd5f80217654d970f0bc1f5b904bc87535a"
   integrity sha512-Tf6U3NejiCYtGUD1kTe6ASSG7MqaZ6cshT4dawy7wrtzwsrngEyXpzwxMoulNRJP/8G4jsZ6L9IvOTvb5meUTg==
