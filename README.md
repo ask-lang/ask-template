@@ -2,6 +2,20 @@
 
 A template for creating an Ask! contract project.
 
+## Usage
+
+- Build the template contract
+
+```bash
+yarn build flipper.ts
+```
+
+- Build the template contract and print transform information
+
+```bash
+yarn debug flipper.ts
+```
+
 ## Project Structure
 
 The main `Ask!` project structure is as follows:
